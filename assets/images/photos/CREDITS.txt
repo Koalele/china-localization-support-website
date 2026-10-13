@@ -1,0 +1,5 @@
+Photo sources
+- bilingual-signage.jpg: Harley Lin, Unsplash (unsplash.com/photos/bGuC-oN_rIw), Unsplash License
+- desk-notebook.jpg, calligraphy-brush.jpg: Unsplash License (record photographer + URL here before launch)
+- optics-valley-*.jpg, yellow-crane-tower-rail.jpg, wuhan-*.jpg: supplied by the site owner (owner confirms rights)
+- ../past-programs/*: site owner's own photos, cropped to remove faces
