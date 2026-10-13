@@ -1,9 +1,13 @@
-.photo-band{padding:8px 0 40px}
-.photo-row{display:grid;gap:16px}
-.photo-row figure{margin:0;overflow:hidden;border-radius:14px;background:#eee}
+.photo-band{padding:0 0 32px;margin-top:-24px}
+.photo-row{display:grid;gap:0}
+.photo-row figure{margin:0;overflow:hidden;background:transparent;
+  -webkit-mask-image:linear-gradient(to right,transparent,#000 56px,#000 calc(100% - 56px),transparent),linear-gradient(to bottom,transparent,#000 44px,#000 calc(100% - 44px),transparent);
+  -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to right,transparent,#000 56px,#000 calc(100% - 56px),transparent),linear-gradient(to bottom,transparent,#000 44px,#000 calc(100% - 44px),transparent);
+  mask-composite:intersect}
 .photo-row img{display:block;width:100%;height:100%;object-fit:cover}
-.photo-row.one{grid-template-columns:1fr}.photo-row.one img{max-height:420px}
-.photo-row.two{grid-template-columns:1.4fr 1.1fr;height:340px}
-.photo-row.two-eq{grid-template-columns:1fr 1fr;height:380px}
-.photo-row.three{grid-template-columns:1fr 1.7fr 1fr;height:360px}
-@media(max-width:760px){.photo-row.two,.photo-row.two-eq,.photo-row.three{grid-template-columns:1fr;height:auto}.photo-row.two-eq img,.photo-row.three img,.photo-row.two img{height:240px}.photo-row.one img{max-height:260px}}
+.photo-row.one img{max-height:440px}
+.photo-row.two{grid-template-columns:1.4fr 1.1fr;height:360px}
+.photo-row.two-eq{grid-template-columns:1fr 1fr;height:400px}
+.photo-row.three{grid-template-columns:1fr 1.7fr 1fr;height:380px}
+@media(max-width:760px){.photo-row.two,.photo-row.two-eq,.photo-row.three{grid-template-columns:1fr;height:auto}.photo-row.two-eq img,.photo-row.three img,.photo-row.two img{height:240px}.photo-row.one img{max-height:260px}.photo-row figure{-webkit-mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent),linear-gradient(to bottom,transparent,#000 24px,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent),linear-gradient(to bottom,transparent,#000 24px,#000 calc(100% - 24px),transparent)}}
