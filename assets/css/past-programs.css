@@ -1,8 +1,8 @@
 .past-programs .pp-intro{max-width:720px}
 .pp-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:28px 0}
 .pp-fact{padding:20px 18px;border:1px solid rgba(0,0,0,.08);border-radius:14px;background:#fff;text-align:center;display:flex;align-items:center;justify-content:center;min-height:96px;font-weight:600}
-.pp-gallery{display:grid;grid-template-columns:1.4fr 1fr;gap:0;margin:8px 0 28px}
-.pp-gallery figure{margin:0;overflow:hidden;-webkit-mask-image:linear-gradient(to right,transparent,#000 48px,#000 calc(100% - 48px),transparent),linear-gradient(to bottom,transparent,#000 40px,#000 calc(100% - 40px),transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 48px,#000 calc(100% - 48px),transparent),linear-gradient(to bottom,transparent,#000 40px,#000 calc(100% - 40px),transparent);mask-composite:intersect}
+.pp-gallery{display:grid;grid-template-columns:1.4fr 1fr;gap:16px;margin:8px 0 28px}
+.pp-gallery figure{margin:0;overflow:hidden;border-radius:14px}
 .pp-gallery img{display:block;width:100%;height:100%;object-fit:cover}
 .pp-gallery .pp-wide{grid-column:1/-1}
 .pp-gallery .pp-wide img{max-height:240px}
