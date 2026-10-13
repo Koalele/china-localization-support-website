@@ -37,3 +37,12 @@
 .experience-collection-art{background:url("../images/photos/wuhan-yellow-crane-tower.jpg") center 30%/cover no-repeat!important;min-height:340px;border-radius:14px}
 .about-hero.has-photo .about-title span:first-child{font-size:clamp(2.4rem,4.6vw,3.8rem)!important;line-height:1.04}
 .about-hero.has-photo .about-title span:last-child{font-size:clamp(1.25rem,1.9vw,1.6rem)!important;padding-top:12px}
+/* Portrait photos: taller hero so the whole subject stays visible */
+.page-hero.hero-tall{min-height:clamp(560px,52vw,720px)}
+.page-hero.hero-tall .hero-photo{width:46%}
+.page-hero.hero-tall .hero-copy{max-width:min(540px,48%)}
+.page-hero.hero-tall .hero-photo{-webkit-mask-image:linear-gradient(to right,transparent 0,rgba(0,0,0,.5) 14%,#000 34%);mask-image:linear-gradient(to right,transparent 0,rgba(0,0,0,.5) 14%,#000 34%)}
+@media(max-width:860px){.page-hero.hero-tall{min-height:0}.page-hero.hero-tall .hero-photo{width:100%;height:340px}}
+/* Experiences CTA card: show the whole tower */
+.experience-collection-art{aspect-ratio:1080/1204;min-height:0!important;width:min(100%,400px);justify-self:center;background-position:center!important}
+@media(min-width:861px){.experience-collection-intro h2{max-width:none;white-space:nowrap}}
