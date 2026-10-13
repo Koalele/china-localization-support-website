@@ -11,3 +11,12 @@
 .photo-row.two-eq{grid-template-columns:1fr 1fr;height:400px}
 .photo-row.three{grid-template-columns:1fr 1.7fr 1fr;height:380px}
 @media(max-width:760px){.photo-row.two,.photo-row.two-eq,.photo-row.three{grid-template-columns:1fr;height:auto}.photo-row.two-eq img,.photo-row.three img,.photo-row.two img{height:240px}.photo-row.one img{max-height:260px}.photo-row figure{-webkit-mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent),linear-gradient(to bottom,transparent,#000 24px,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent),linear-gradient(to bottom,transparent,#000 24px,#000 calc(100% - 24px),transparent)}}
+.page-hero.has-photo>.wrap{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:40px;align-items:center}
+.page-hero.has-photo h1,.page-hero.has-photo .lede{max-width:none!important}
+.page-hero.has-photo:after{display:none!important}
+.hero-photo{margin:0;aspect-ratio:4/3;overflow:hidden;
+  -webkit-mask-image:linear-gradient(to right,transparent,#000 56px,#000 calc(100% - 40px),transparent),linear-gradient(to bottom,transparent,#000 40px,#000 calc(100% - 40px),transparent);-webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to right,transparent,#000 56px,#000 calc(100% - 40px),transparent),linear-gradient(to bottom,transparent,#000 40px,#000 calc(100% - 40px),transparent);mask-composite:intersect}
+.hero-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.photo-band{margin-top:0}
+@media(max-width:860px){.page-hero.has-photo>.wrap{grid-template-columns:1fr;gap:16px}.hero-photo{aspect-ratio:16/10}}
