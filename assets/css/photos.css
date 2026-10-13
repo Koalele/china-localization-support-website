@@ -1,0 +1,42 @@
+.photo-band{padding:0}
+.photo-row{display:grid;gap:0}
+.photo-row figure{margin:0;overflow:hidden;background:transparent;
+  -webkit-mask-image:linear-gradient(to right,transparent,#000 56px,#000 calc(100% - 56px),transparent),linear-gradient(to bottom,transparent,#000 44px,#000 calc(100% - 44px),transparent);
+  -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to right,transparent,#000 56px,#000 calc(100% - 56px),transparent),linear-gradient(to bottom,transparent,#000 44px,#000 calc(100% - 44px),transparent);
+  mask-composite:intersect}
+.photo-row img{display:block;width:100%;height:100%;object-fit:cover}
+.photo-row.one img{max-height:440px}
+.photo-row.two{grid-template-columns:1.4fr 1.1fr;height:360px}
+.photo-row.two-eq{grid-template-columns:1fr 1fr;height:400px}
+.photo-row.three{grid-template-columns:1fr 1.7fr 1fr;height:380px}
+@media(max-width:760px){.photo-row.two,.photo-row.two-eq,.photo-row.three{grid-template-columns:1fr;height:auto}.photo-row.two-eq img,.photo-row.three img,.photo-row.two img{height:240px}.photo-row.one img{max-height:260px}.photo-row figure{-webkit-mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent),linear-gradient(to bottom,transparent,#000 24px,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent),linear-gradient(to bottom,transparent,#000 24px,#000 calc(100% - 24px),transparent)}}
+/* Hero: photo bleeds off the right edge and fades into the page only on its left side */
+.page-hero.has-photo{position:relative;overflow:hidden;min-height:clamp(440px,42vw,560px);display:flex;align-items:center}
+
+.page-hero.has-photo .hero-copy{max-width:min(540px,44%);position:relative;z-index:2}
+.page-hero.has-photo h1{font-size:clamp(2.3rem,3.9vw,3.4rem)!important;line-height:1.08}
+.page-hero.has-photo h1,.page-hero.has-photo .lede{max-width:none!important}
+.page-hero.has-photo:after{display:none!important}
+.hero-photo{position:absolute;z-index:0;top:0;right:0;bottom:0;width:58%;margin:0;aspect-ratio:auto}
+.hero-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.hero-photo{-webkit-mask-image:linear-gradient(to right,transparent 0,rgba(0,0,0,.55) 18%,#000 42%);mask-image:linear-gradient(to right,transparent 0,rgba(0,0,0,.55) 18%,#000 42%)}
+/* Secondary photos: full-width band, fades only into the sections above and below */
+.photo-band .wrap{max-width:none;width:100%;padding:0}
+.photo-row{gap:0;height:340px}
+.photo-row figure{border-radius:0;
+  -webkit-mask-image:linear-gradient(to bottom,transparent,#000 56px,#000 calc(100% - 56px),transparent);
+  mask-image:linear-gradient(to bottom,transparent,#000 56px,#000 calc(100% - 56px),transparent);-webkit-mask-composite:source-over;mask-composite:add}
+@media(max-width:860px){
+ .page-hero.has-photo{display:block;min-height:0;padding-bottom:0}
+ .page-hero.has-photo .hero-copy{max-width:none}
+ .hero-photo{position:relative;width:100%;height:280px;margin-top:24px;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 36%);mask-image:linear-gradient(to bottom,transparent,#000 36%)}
+ .photo-row,.photo-row.two-eq{height:auto}.photo-row.two-eq{grid-template-columns:1fr}.photo-row figure img{height:240px}
+}
+/* Local experiences: CTA card uses a real photo instead of the line illustration */
+.experience-collection-art{background:url("../images/photos/wuhan-yellow-crane-tower.jpg") center 30%/cover no-repeat!important;min-height:340px;border-radius:14px}
+.about-hero.has-photo .about-title span:first-child{font-size:clamp(2.4rem,4.6vw,3.8rem)!important;line-height:1.04}
+.about-hero.has-photo .about-title span:last-child{font-size:clamp(1.25rem,1.9vw,1.6rem)!important;padding-top:12px}
+/* Experiences CTA card: show the whole tower; section title on one line */
+.experience-collection-art{aspect-ratio:1080/1204;min-height:0!important;width:min(100%,400px);justify-self:center;background-position:center!important}
+@media(min-width:861px){.experience-collection-intro h2{max-width:none;white-space:nowrap}}
