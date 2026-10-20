@@ -447,4 +447,6 @@ T = {
 's446':'Devis par événement',
 's447':'Prix définitif',
 's448':'Confirmé dans votre devis et votre contrat de service',
+'s449':'Deux personnes examinant ensemble un devis imprimé à une table',
+'s450':'Une main écrivant au stylo sur un document imprimé',
 }

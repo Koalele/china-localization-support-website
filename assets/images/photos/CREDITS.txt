@@ -3,3 +3,4 @@ Photo sources
 - desk-notebook.jpg, calligraphy-brush.jpg: Unsplash License (record photographer + URL here before launch)
 - optics-valley-*.jpg, yellow-crane-tower-rail.jpg, wuhan-*.jpg: supplied by the site owner (owner confirms rights)
 - ../past-programs/*: site owner's own photos, cropped to remove faces
+- quote-review.jpg (rates page), document-writing.jpg (common documents page): supplied by the site owner (owner confirms rights; record source + license here)
