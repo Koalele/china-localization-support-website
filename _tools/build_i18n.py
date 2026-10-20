@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate /zh /ja /fr pages from the English master pages.
 Run from the repo root:  python3 _tools/build_i18n.py
+Also stamps /assets/css and /assets/js links with ?v=<content hash>; re-run after editing CSS or JS.
 English pages are only decorated (hreflang, language switcher, css link, form language field)."""
 import sys, os, re, json, importlib.util
 from bs4 import BeautifulSoup, NavigableString
@@ -93,12 +94,28 @@ def decorate(h,lang,page):
     h=re.sub(r'(<form\b[^>]*>)',lambda m:m.group(1)+f'<input type="hidden" name="page_language" value="{lang}">',h)
     return h
 
+import hashlib
+_vcache={}
+def asset_version(path):
+    """Short content hash of a local asset, so browsers fetch it again after it changes."""
+    if path not in _vcache:
+        try: _vcache[path]=hashlib.sha1(open(path.lstrip('/'),'rb').read()).hexdigest()[:8]
+        except OSError: _vcache[path]=None
+    return _vcache[path]
+def version_assets(h):
+    def rep(m):
+        v=asset_version(m.group(2))
+        return m.group(1)+m.group(2)+(f'?v={v}' if v else '')+'"'
+    return re.sub(r'((?:href|src)=")(/assets/(?:css|js)/[^"?]+)(?:\?v=[^"]*)?"',rep,h)
+
 def main():
     langs=['zh','ja','fr']
     tr={l:load(l) for l in langs}
     allmiss={}
+    if os.path.exists('404.html'):
+        s=open('404.html',encoding='utf-8').read(); open('404.html','w',encoding='utf-8').write(version_assets(s))
     for p in PAGES:
-        src=open(p,encoding='utf-8').read()
+        src=version_assets(open(p,encoding='utf-8').read())
         # English master: strip previous decoration only through decorate()
         open(p,'w',encoding='utf-8').write(decorate(src,'en',p))
         master=open(p,encoding='utf-8').read()
