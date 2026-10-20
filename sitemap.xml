@@ -97,6 +97,38 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/contact.html"/>
   </url>
   <url>
+    <loc>https://transwindcn.com/documents.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/documents.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/zh/documents.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/documents.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/ja/documents.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/documents.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/fr/documents.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/documents.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/documents.html"/>
+  </url>
+  <url>
     <loc>https://transwindcn.com/education-programs.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/education-programs.html"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/education-programs.html"/>
