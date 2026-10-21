@@ -125,3 +125,6 @@ body.education-page .page-hero .education-intro>.eyebrow{font-size:.92rem;letter
 @media(max-width:560px){.plan-table .text-row td{font-size:.76rem}.plan-table thead th small{font-size:.62rem;padding:2px 6px}.timeline-table tbody th,.addon-table td{width:auto}}
 @media(max-width:560px){.rate-table th,.rate-table td{overflow-wrap:anywhere;hyphens:auto}}
 @media(max-width:560px){.plan-table thead th small{width:auto;max-width:100%;padding:2px 4px;overflow-wrap:normal;font-size:.58rem}}
+.field-grid.feature-grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}.field-grid.feature-grid-4 .field-card,.field-grid.feature-grid-4 .field-card:nth-child(n){grid-column:auto;width:auto;justify-self:stretch}
+@media(max-width:1000px){.field-grid.feature-grid-4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.field-grid.feature-grid-4{grid-template-columns:1fr}}
