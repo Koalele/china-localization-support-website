@@ -616,4 +616,10 @@ T = {
 's615':'Vérification du dossier de permis de séjour<small>Nous vérifions votre dossier avec la liste officielle avant le dépôt.</small>',
 's616':'Traduction certifiée de documents<small>Diplômes, casier judiciaire, actes de mariage et de naissance.</small>',
 's617':'Assistance WeChat prolongée<small>30 jours supplémentaires d’assistance WeChat.</small>',
+'s618':'Lancement',
+'s619':'Comprendre vos besoins et valider le plan',
+'s620':'Réalisation',
+'s621':'Constituer l’équipe et livrer',
+'s622':'Clôture',
+'s623':'Révisions et suivi',
 }

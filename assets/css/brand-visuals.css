@@ -129,3 +129,33 @@ body.education-page .page-hero .education-intro>.eyebrow{font-size:.92rem;letter
 @media(max-width:560px){.field-grid.feature-grid-4{grid-template-columns:1fr}}
 .flow-steps{list-style:none;margin:30px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px}.flow-steps li{position:relative;padding-top:68px}.flow-steps li:not(:last-child):after{content:"";position:absolute;top:25px;left:60px;right:-24px;height:2px;background:linear-gradient(90deg,#f0b3b5,#f6d4d4)}.flow-num{position:absolute;top:0;left:0;display:grid;place-items:center;width:52px;height:52px;border:1px solid #f0b3b5;border-radius:50%;background:#fff;color:#C8161D;font:1.1rem var(--serif);box-shadow:0 8px 24px #1f29370e}.flow-steps li:last-child .flow-num{background:#C8161D;border-color:#C8161D;color:#fff}.flow-steps h3{margin:0 0 8px;font-size:1.15rem}.flow-steps p{margin:0;color:var(--muted);line-height:1.7}
 @media(max-width:760px){.flow-steps{grid-template-columns:1fr;gap:0}.flow-steps li{padding:4px 0 26px 72px;min-height:52px}.flow-steps li:not(:last-child):after{top:56px;bottom:0;left:25px;right:auto;width:2px;height:auto;background:linear-gradient(#f0b3b5,#f6d4d4)}.flow-steps h3{margin-top:12px}}
+.flow-steps.flow-5{grid-template-columns:repeat(5,minmax(0,1fr));gap:24px;margin-top:8px}.flow-steps.flow-5 li:not(:last-child):after{right:-16px}
+@media(max-width:900px){.flow-steps.flow-5{grid-template-columns:1fr;gap:0;max-width:640px}.flow-steps.flow-5 li{padding:4px 0 26px 72px;min-height:52px}.flow-steps.flow-5 li:not(:last-child):after{top:56px;bottom:0;left:25px;right:auto;width:2px;height:auto;background:linear-gradient(#f0b3b5,#f6d4d4)}.flow-steps.flow-5 h3{margin-top:12px}}
+/* zigzag process flow */
+.zz{--n:5;list-style:none;margin:36px 0 0;padding:0;display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));grid-template-rows:auto 64px auto;column-gap:22px}
+.zz:before{content:"";grid-row:2;grid-column:1/-1;align-self:center;height:4px;border-radius:4px;background:linear-gradient(90deg,#f6d4d4,#e46c70 60%,#C8161D)}
+.zz li{grid-row:1/4;display:grid;grid-template-rows:subgrid;min-width:0}
+.zz li:nth-child(1){grid-column:1}.zz li:nth-child(2){grid-column:2}.zz li:nth-child(3){grid-column:3}.zz li:nth-child(4){grid-column:4}.zz li:nth-child(5){grid-column:5}
+.zz-box{position:relative;grid-row:1;align-self:stretch;background:#fff;border:1px solid #f1d9d9;border-radius:16px;padding:22px 22px 20px;box-shadow:0 14px 34px #1f29370d}
+.zz li:nth-child(even) .zz-box{grid-row:3}
+.zz-box:after{content:"";position:absolute;left:50%;width:2px;height:22px;background:#f0b3b5;top:100%}
+.zz li:nth-child(even) .zz-box:after{top:auto;bottom:100%}
+.zz-num{display:block;margin:0 0 10px;font:700 2.6rem/1 var(--serif);color:transparent;-webkit-text-stroke:1.4px #e9a9ab}
+.zz-box h3{margin:0 0 6px;font-size:1.14rem}.zz-box p{margin:0;color:var(--muted);line-height:1.65;font-size:.95rem}
+.zz-dot{grid-row:2;justify-self:center;align-self:center;width:20px;height:20px;border-radius:50%;background:#fff;border:4px solid #C8161D;box-sizing:border-box;z-index:1}
+.zz li:last-child .zz-box{background:#C8161D;border-color:#C8161D;box-shadow:0 16px 36px #c8161d33}.zz li:last-child .zz-box h3,.zz li:last-child .zz-box p{color:#fff}.zz li:last-child .zz-num{-webkit-text-stroke-color:#ffffffa0}.zz li:last-child .zz-dot{background:#C8161D}
+.zz-phase{grid-row:3;align-self:start;padding:18px 8px 0;text-align:center}
+.zz li:nth-child(even) .zz-phase{grid-row:1;align-self:end;padding:0 8px 18px}
+.zz-phase strong{display:inline-block;padding:3px 14px;border-radius:999px;background:#fbeceb;color:#C8161D;font-size:.85rem;letter-spacing:.06em}
+.zz-phase span{display:block;margin-top:8px;color:var(--muted);font-size:.86rem;line-height:1.5}
+@media(max-width:900px){
+.zz{display:block;position:relative;margin-top:28px}
+.zz:before{position:absolute;left:9px;top:8px;bottom:8px;width:4px;height:auto;background:linear-gradient(#f6d4d4,#e46c70 60%,#C8161D)}
+.zz li{display:flex;flex-direction:column;position:relative;padding:0 0 20px 40px}
+.zz-box,.zz li:nth-child(even) .zz-box{order:2}
+.zz-box:after{display:none}
+.zz-dot{position:absolute;left:1px;top:26px}
+.zz-phase,.zz li:nth-child(even) .zz-phase{order:1;text-align:left;padding:0 0 10px}
+.zz-phase span{display:inline;margin:0 0 0 8px}
+}
+@media(max-width:900px){.zz:before{align-self:stretch}.zz-dot{top:24px}.zz li:has(.zz-phase) .zz-dot{top:calc(24px + var(--phase-h,42px))}.zz-phase{min-height:42px;box-sizing:border-box}}
