@@ -321,6 +321,38 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/"/>
   </url>
   <url>
+    <loc>https://transwindcn.com/localization-packages.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/localization-packages.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/zh/localization-packages.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/localization-packages.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/ja/localization-packages.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/localization-packages.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/fr/localization-packages.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/localization-packages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/localization-packages.html"/>
+  </url>
+  <url>
     <loc>https://transwindcn.com/localization.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/localization.html"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/localization.html"/>
