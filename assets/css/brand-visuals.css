@@ -159,3 +159,8 @@ body.education-page .page-hero .education-intro>.eyebrow{font-size:.92rem;letter
 .zz-phase span{display:inline;margin:0 0 0 8px}
 }
 @media(max-width:900px){.zz:before{align-self:stretch}.zz-dot{top:24px}.zz li:has(.zz-phase) .zz-dot{top:calc(24px + var(--phase-h,42px))}.zz-phase{min-height:42px;box-sizing:border-box}}
+/* localization packages */
+.overview-table td,.roles-table td{color:var(--ink);font-weight:400;white-space:normal;line-height:1.6;font-size:.95rem}.overview-table tbody th{width:22%}.overview-table td:nth-of-type(2){color:var(--muted);width:13%}.overview-table td:last-child{color:#C8161D;font-weight:700;width:18%}.roles-table tbody th{width:26%}.roles-table td.no,.roles-table td:last-child{color:var(--muted)}
+.hero-links{margin-top:14px}
+@media(max-width:700px){.overview-table{min-width:0}.overview-table thead{display:none}.overview-table tr{display:block;padding:14px 4px;border-bottom:1px solid var(--line)}.overview-table tbody tr:last-child{border-bottom:0}.overview-table th,.overview-table td,.overview-table td:nth-of-type(2),.overview-table td:last-child{display:block;width:auto;border:0!important;padding:4px 12px;background:none!important}.overview-table td:nth-of-type(2):before{content:"⏱ "}}
+@media(max-width:700px){.rate-table.overview-table tbody th{width:auto}}
