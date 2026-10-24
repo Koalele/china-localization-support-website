@@ -734,4 +734,5 @@ T = {
 's733':'Mesure d’audience et cookies',
 's734':'Si vous acceptez les cookies de mesure d’audience, Google Analytics, un service fourni par Google, dépose des cookies et collecte des informations telles que les pages consultées, la façon dont vous êtes arrivé sur le site, votre localisation approximative et le type d’appareil. Nous ne consultons ces informations que de manière agrégée, pour améliorer le site. Google les traite selon sa propre <a href="https://policies.google.com/privacy" rel="noopener">politique de confidentialité</a>. Si vous refusez, Google Analytics n’est pas chargé.',
 's735':'Vous pouvez modifier votre choix à tout moment : <a data-cookie-settings="" href="#">paramètres des cookies</a>.',
+'s736':'Guides (en anglais)',
 }
