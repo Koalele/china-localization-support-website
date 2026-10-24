@@ -777,4 +777,5 @@ T = {
 's776':'Mon entreprise s’implante ou se développe en Chine',
 's777':'Votre projet couvre plusieurs services ?',
 's778':'Dites-nous votre objectif. Nous réunissons les bonnes personnes et vous envoyons un seul plan et un seul devis.',
+'s779':'Un parcours construit autour de vos objectifs',
 }
