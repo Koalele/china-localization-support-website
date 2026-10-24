@@ -863,4 +863,6 @@ T = {
 's862':'Australie',
 's863':'Japon',
 's864':'Hong Kong',
+'s865':'Interprétation de négociations internationales',
+'s866':'En savoir plus',
 }
