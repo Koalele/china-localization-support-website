@@ -118,10 +118,59 @@
     });
   });
 
-  if (config.analyticsProvider && config.analyticsId) {
-    document.dispatchEvent(new CustomEvent("site:analytics-ready", {
-      detail: { provider: config.analyticsProvider, id: config.analyticsId }
-    }));
+  /* Google Analytics 4, loaded only after the visitor accepts analytics cookies. */
+  if (config.analyticsProvider === "ga4" && config.analyticsId) {
+    const KEY = "tw-analytics-consent";
+    const lang = (document.documentElement.lang || "en").slice(0, 2);
+    const L = {
+      en: { text: "We use Google Analytics cookies to understand how visitors use this site.", accept: "Accept", decline: "Decline", more: "Privacy Policy", path: "/privacy.html" },
+      zh: { text: "我们使用 Google Analytics Cookie 了解访客如何使用本网站。", accept: "接受", decline: "拒绝", more: "隐私政策", path: "/zh/privacy.html" },
+      ja: { text: "当サイトでは、利用状況を把握するために Google Analytics の Cookie を使用しています。", accept: "同意する", decline: "拒否する", more: "プライバシーポリシー", path: "/ja/privacy.html" },
+      fr: { text: "Nous utilisons des cookies Google Analytics pour comprendre l’utilisation de ce site.", accept: "Accepter", decline: "Refuser", more: "Politique de confidentialité", path: "/fr/privacy.html" }
+    }[lang] || null;
+    const t = L || { text: "We use Google Analytics cookies to understand how visitors use this site.", accept: "Accept", decline: "Decline", more: "Privacy Policy", path: "/privacy.html" };
+    const read = () => { try { return localStorage.getItem(KEY); } catch (_) { return null; } };
+    const save = (v) => { try { localStorage.setItem(KEY, v); } catch (_) {} };
+    let loaded = false;
+    const loadGA = () => {
+      if (loaded) return; loaded = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag("js", new Date());
+      window.gtag("config", config.analyticsId);
+      const sc = document.createElement("script");
+      sc.async = true;
+      sc.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(config.analyticsId);
+      document.head.appendChild(sc);
+      document.addEventListener("site:form-submit", () => { if (window.gtag) window.gtag("event", "generate_lead"); });
+    };
+    const showBanner = () => {
+      if (document.querySelector(".cookie-banner")) return;
+      const box = document.createElement("div");
+      box.className = "cookie-banner";
+      box.setAttribute("role", "region");
+      box.setAttribute("aria-label", t.more);
+      const p = document.createElement("p");
+      p.textContent = t.text + " ";
+      const a = document.createElement("a");
+      a.href = t.path; a.textContent = t.more;
+      p.appendChild(a);
+      const actions = document.createElement("div");
+      actions.className = "cookie-actions";
+      const no = document.createElement("button"); no.type = "button"; no.className = "button secondary"; no.textContent = t.decline;
+      const yes = document.createElement("button"); yes.type = "button"; yes.className = "button"; yes.textContent = t.accept;
+      no.addEventListener("click", () => { save("denied"); box.remove(); });
+      yes.addEventListener("click", () => { save("granted"); box.remove(); loadGA(); });
+      actions.append(no, yes);
+      box.append(p, actions);
+      document.body.appendChild(box);
+    };
+    const choice = read();
+    if (choice === "granted") loadGA();
+    else if (choice !== "denied") showBanner();
+    document.querySelectorAll("[data-cookie-settings]").forEach((el) => {
+      el.addEventListener("click", (e) => { e.preventDefault(); save(""); showBanner(); });
+    });
   }
   if (config.spamProtection && config.spamProtection.provider) {
     document.dispatchEvent(new CustomEvent("site:spam-protection-configured", {
