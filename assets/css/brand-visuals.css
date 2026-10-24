@@ -184,3 +184,4 @@ body.education-page .page-hero .education-intro>.eyebrow{font-size:.92rem;letter
 .used-for{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:26px;padding:24px;border-radius:var(--radius);background:#fff;border:1px dashed #e8b3b4}.used-for h3{margin:0 0 12px;font-size:1rem}
 @media(max-width:820px){.stats-strip ul{grid-template-columns:repeat(2,1fr)}.icon-cards{grid-template-columns:1fr}.used-for{grid-template-columns:1fr}}@media(max-width:560px){.case-card p:has(strong:first-child){grid-template-columns:1fr;gap:2px}.stats-strip strong{font-size:2rem}}
 .icon-card p.svc-meta{color:#C8161D}
+.eyebrow,.kicker,.tag,.footer-head,.entry-plan-output span{font-size:max(.8rem,12.8px)!important}.is-featured small{font-size:max(.72rem,12px)!important}@media(max-width:560px){.text-row td{font-size:.84rem!important}.rate-table tbody th small{font-size:.82rem!important}}
