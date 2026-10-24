@@ -27,3 +27,4 @@ html[lang="zh-CN"] main :is(h1,h2,h3),html[lang="ja"] main :is(h1,h2,h3){text-wr
 html[lang="zh-CN"] main p,html[lang="ja"] main p,html[lang="zh-CN"] main li,html[lang="ja"] main li{text-wrap:pretty}
 html[lang="zh-CN"] .hero-copy h1,html[lang="ja"] .hero-copy h1{max-width:11em}
 html[lang="zh-CN"] .faq-list .article h2,html[lang="ja"] .faq-list .article h2{font-size:1.08rem!important}
+html[lang="zh-CN"] h1{word-break:keep-all;overflow-wrap:anywhere;text-wrap:balance}
