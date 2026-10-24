@@ -734,4 +734,5 @@ T = {
 's733':'アクセス解析と Cookie',
 's734':'アクセス解析の Cookie に同意いただいた場合、Google が提供する Google Analytics が Cookie を設定し、閲覧したページ、サイトへの訪問経路、おおよその地域、端末の種類などの情報を収集します。当社はこれらの情報を集計した形でのみ確認し、サイトの改善に利用します。Google はこれらの情報を同社の<a href="https://policies.google.com/privacy" rel="noopener">プライバシーポリシー</a>に基づいて取り扱います。拒否された場合、Google Analytics は読み込まれません。',
 's735':'選択はいつでも変更できます：<a data-cookie-settings="" href="#">Cookie 設定</a>。',
+'s736':'ガイド（英語）',
 }

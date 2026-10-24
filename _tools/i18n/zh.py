@@ -734,4 +734,5 @@ T = {
 's733':'统计与 Cookie',
 's734':'如果您接受统计 Cookie，Google 提供的 Google Analytics 会设置 Cookie，并收集您访问的页面、进入网站的方式、大致所在地区和设备类型等信息。我们只查看汇总数据，用于改进网站。Google 依据其<a href="https://policies.google.com/privacy" rel="noopener">隐私权政策</a>处理这些信息。如果您拒绝，Google Analytics 不会加载。',
 's735':'您可以随时更改选择：<a data-cookie-settings="" href="#">Cookie 设置</a>。',
+'s736':'英文指南',
 }

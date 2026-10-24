@@ -3,7 +3,7 @@
 Run from the repo root:  python3 _tools/build_i18n.py
 Also stamps /assets/css and /assets/js links with ?v=<content hash>; re-run after editing CSS or JS.
 English pages are only decorated (hreflang, language switcher, css link, form language field)."""
-import sys, os, re, json, importlib.util
+import sys, os, re, json, glob, importlib.util
 from bs4 import BeautifulSoup, NavigableString
 sys.path.insert(0, os.path.dirname(__file__))
 import i18n_lib as L
@@ -37,7 +37,7 @@ def punct(lang,s):
     return s
 
 def prefix(lang,href):
-    if not href.startswith('/') or href.startswith('//') or href.startswith('/assets') or re.match(r'/[0-9a-f]{32}\.txt',href): return href
+    if not href.startswith('/') or href.startswith('//') or href.startswith('/assets') or href.startswith('/guides') or re.match(r'/[0-9a-f]{32}\.txt',href): return href
     if href=='/index.html': return f'/{lang}/'
     return f'/{lang}'+href
 
@@ -130,6 +130,10 @@ def main():
     for p in PAGES:
         for l in ORDER:
             rows.append('  <url>\n    <loc>%s</loc>\n'%url(l,p)+''.join(f'    <xhtml:link rel="alternate" hreflang="{LANGS[a]["html"]}" href="{url(a,p)}"/>\n' for a in ORDER)+f'    <xhtml:link rel="alternate" hreflang="x-default" href="{url("en",p)}"/>\n  </url>')
+    # English-only guides (built by _tools/build_guides.py)
+    for g in sorted(glob.glob('guides/*.html')):
+        loc=SITE+'/'+g.replace('index.html','')
+        rows.append(f'  <url>\n    <loc>{loc}</loc>\n  </url>')
     rows.append('</urlset>')
     open('sitemap.xml','w',encoding='utf-8').write('\n'.join(rows)+'\n')
     for l,m in allmiss.items(): print('MISSING',l,len(m),list(m)[:5])

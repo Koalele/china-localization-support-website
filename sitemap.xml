@@ -512,4 +512,10 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/translation.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/translation.html"/>
   </url>
+  <url>
+    <loc>https://transwindcn.com/guides/</loc>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/guides/visiting-factories-in-wuhan.html</loc>
+  </url>
 </urlset>
