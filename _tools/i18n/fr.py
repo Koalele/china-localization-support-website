@@ -778,4 +778,8 @@ T = {
 's777':'Votre projet couvre plusieurs services ?',
 's778':'Dites-nous votre objectif. Nous réunissons les bonnes personnes et vous envoyons un seul plan et un seul devis.',
 's779':'Un parcours construit autour de vos objectifs',
+'s780':'Nous recommandons un plan et vous mettons en relation avec un professeur de mandarin certifié.',
+'s781':'Les cours avec votre professeur ont lieu surtout en ligne, en individuel, aux horaires qui vous conviennent.',
+'s782':'Oui. La plupart de nos professeurs certifiés enseignent en ligne : vous pouvez apprendre où que vous soyez.',
+'s783':'Professeurs certifiés, surtout en ligne',
 }
