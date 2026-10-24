@@ -730,4 +730,8 @@ T = {
 's729':'Voir les tarifs →',
 's730':'Les services préférés de nos clients internationaux',
 's731':'Des prix de départ clairs, un devis sous 1 jour ouvré et un seul interlocuteur du premier message à la livraison.',
+'s732':'Nous ne demandons pas de numéro de passeport, de pièce d’identité ou de carte de paiement via le site. Merci de ne pas les indiquer, ni aucune autre information sensible ou confidentielle, dans un formulaire. Ce site est hébergé sur GitHub Pages et, comme la plupart des hébergeurs, GitHub peut traiter des informations techniques comme les adresses IP pour diffuser les pages. Avec votre consentement, nous utilisons Google Analytics pour comprendre l’utilisation de ce site. Nous n’utilisons aucun traceur publicitaire.',
+'s733':'Mesure d’audience et cookies',
+'s734':'Si vous acceptez les cookies de mesure d’audience, Google Analytics, un service fourni par Google, dépose des cookies et collecte des informations telles que les pages consultées, la façon dont vous êtes arrivé sur le site, votre localisation approximative et le type d’appareil. Nous ne consultons ces informations que de manière agrégée, pour améliorer le site. Google les traite selon sa propre <a href="https://policies.google.com/privacy" rel="noopener">politique de confidentialité</a>. Si vous refusez, Google Analytics n’est pas chargé.',
+'s735':'Vous pouvez modifier votre choix à tout moment : <a data-cookie-settings="" href="#">paramètres des cookies</a>.',
 }

@@ -730,4 +730,8 @@ T = {
 's729':'查看价格 →',
 's730':'国际客户常选的服务',
 's731':'明确的起步价，1 个工作日内报价，从第一条消息到交付由一位联系人负责。',
+'s732':'我们不会通过网站索要护照、身份证或银行卡号码，请勿在表单中填写这些信息，或其他敏感、机密信息。本网站托管于 GitHub Pages，与大多数网站托管服务一样，GitHub 可能会为提供页面而处理 IP 地址等技术信息。经您同意后，我们使用 Google Analytics 了解访客如何使用本网站。我们不使用广告追踪工具。',
+'s733':'统计与 Cookie',
+'s734':'如果您接受统计 Cookie，Google 提供的 Google Analytics 会设置 Cookie，并收集您访问的页面、进入网站的方式、大致所在地区和设备类型等信息。我们只查看汇总数据，用于改进网站。Google 依据其<a href="https://policies.google.com/privacy" rel="noopener">隐私权政策</a>处理这些信息。如果您拒绝，Google Analytics 不会加载。',
+'s735':'您可以随时更改选择：<a data-cookie-settings="" href="#">Cookie 设置</a>。',
 }

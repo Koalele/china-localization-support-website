@@ -2,7 +2,7 @@
 window.SITE_CONFIG = {
   formEndpoint: "https://api.web3forms.com/submit",
   web3FormsAccessKey: "5b213679-dc15-4413-96b1-a7223e6950b5",
-  analyticsProvider: "",
-  analyticsId: "",
+  analyticsProvider: "ga4",
+  analyticsId: "G-YXT6K9VJNR",
   spamProtection: { provider: "web3forms-honeypot", siteKey: "", adapterUrl: "" }
 };
