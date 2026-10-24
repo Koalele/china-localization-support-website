@@ -177,4 +177,16 @@
       detail: config.spamProtection
     }));
   }
+
+  // Sort long option lists (e.g. countries) in the page language; keep the placeholder first and "Other" last.
+  document.querySelectorAll("select[data-sort-options]").forEach(function (sel) {
+    var lang = document.documentElement.lang || "en";
+    var coll = new Intl.Collator(lang);
+    var opts = Array.prototype.slice.call(sel.options);
+    var head = opts.filter(function (o) { return o.value === ""; });
+    var tail = opts.filter(function (o) { return o.hasAttribute("data-keep-last"); });
+    var body = opts.filter(function (o) { return o.value !== "" && !o.hasAttribute("data-keep-last"); });
+    body.sort(function (a, b) { return coll.compare(a.text, b.text); });
+    head.concat(body, tail).forEach(function (o) { sel.appendChild(o); });
+  });
 })();
