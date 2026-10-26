@@ -1150,4 +1150,5 @@ T = {
 's1149':'Un guide professionnel du musée',
 's1150':'Transport et billets sur demande',
 's1151':'Découvrez le carillon du marquis Yi de Zeng, vieux de 2 400 ans, et d’autres trésors de Chu au musée provincial du Hubei, avec un concert de cloches.',
+'s1152':'Wuhan de nuit : un pont en arc illuminé sur la rivière Han, avec les ponts du Yangtsé et la tour de télévision au loin',
 }
