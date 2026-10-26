@@ -33,6 +33,38 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/about.html"/>
   </url>
   <url>
+    <loc>https://transwindcn.com/ai-immersion.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/ai-immersion.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/zh/ai-immersion.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/ai-immersion.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/ja/ai-immersion.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/ai-immersion.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/fr/ai-immersion.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/ai-immersion.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/ai-immersion.html"/>
+  </url>
+  <url>
     <loc>https://transwindcn.com/business-visit-interpreting.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/business-visit-interpreting.html"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/business-visit-interpreting.html"/>
@@ -447,6 +479,38 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/localization.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/localization.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/localization.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/past-programs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/past-programs.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/zh/past-programs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/past-programs.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/ja/past-programs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/past-programs.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/fr/past-programs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/past-programs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/past-programs.html"/>
   </url>
   <url>
     <loc>https://transwindcn.com/privacy.html</loc>
