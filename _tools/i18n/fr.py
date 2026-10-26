@@ -1144,4 +1144,5 @@ T = {
 's1143':'Un bol de nouilles sèches chaudes de Wuhan sur une table en bois',
 's1144':'Un ensemble de cloches de bronze sur un cadre laqué dans un musée',
 's1145':'Un train suspendu passant entre tours vitrées et espaces verts',
+'s1146':'Tarifs de départ des expériences culturelles à Wuhan : petit-déjeuner, ateliers de broderie Han et de découpage de papier, carillons et visite d’Optics Valley.',
 }
