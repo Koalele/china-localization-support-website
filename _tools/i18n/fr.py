@@ -1145,4 +1145,9 @@ T = {
 's1144':'Un ensemble de cloches de bronze sur un cadre laqué dans un musée',
 's1145':'Un train suspendu passant entre tours vitrées et espaces verts',
 's1146':'Tarifs de départ des expériences culturelles à Wuhan : petit-déjeuner, ateliers de broderie Han et de découpage de papier, carillons et visite d’Optics Valley.',
+'s1147':'Les transports, l’hébergement, les repas et les billets d’entrée ne sont pas inclus sauf mention contraire. Dites-nous si vous en avez besoin, nous vous aiderons à les organiser.',
+'s1148':'Besoin aussi de transport ou de billets ? Dites-le-nous, nous vous aiderons à les organiser.',
+'s1149':'Un guide professionnel du musée',
+'s1150':'Transport et billets sur demande',
+'s1151':'Découvrez le carillon du marquis Yi de Zeng, vieux de 2 400 ans, et d’autres trésors de Chu au musée provincial du Hubei, avec un concert de cloches.',
 }
