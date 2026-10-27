@@ -1293,4 +1293,9 @@ T = {
 's1292':'Nous servons chaque client avec respect et sensibilité culturelle, sans aucune discrimination.',
 's1293':'Voir les types de projets dont proviennent ces documents',
 's1294':'Voir des exemples masqués de ces documents',
+'s1295':'Exemple masqué d’un passeport traduit en chinois',
+'s1296':'<strong>Passeport</strong> La page des données et les mentions traduites à côté du scan original.',
+'s1297':'Exemple masqué d’un livret de résidence (hukou) traduit en anglais',
+'s1298':'<strong>Livret de résidence (hukou)</strong> La page de notes et la fiche d’enregistrement de résident traduites ligne par ligne.',
+'s1299':'Documents universitaires et de véhicule',
 }
