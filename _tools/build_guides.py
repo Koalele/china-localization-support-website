@@ -61,6 +61,9 @@ def main():
     main = ('<section class="page-hero has-photo"><figure class="hero-photo"><img src="/assets/images/photos/optics-valley-sky-train-blue.jpg" alt="A suspended sky train passing over a flowering meadow at sunset in Wuhan" loading="lazy"></figure>'
             '<div class="wrap"><div class="hero-copy"><span class="eyebrow">Guides</span><h1>Practical guides for working in China</h1>'
             '<p class="lede">Short, practical answers for companies and individuals working with Chinese suppliers, documents and institutions.</p></div></div></section>'
+            '<section class="section"><div class="wrap"><h2>What these guides cover</h2>'
+            '<p style="max-width:760px">Each guide answers one practical question for overseas companies, families and institutions working with China, from preparing a visit to Chinese suppliers to getting documents accepted. They are written from the work we do with clients in China, in plain English.</p>'
+            '<p class="subpage-links"><a class="text-link" href="/business-visit-interpreting.html">Business visit interpreting day packages</a><a class="text-link" href="/translation-pricing.html">Translation and interpreting rates</a><a class="text-link" href="/documents.html">Common documents we translate</a></p></div></section>'
             '<section class="section white"><div class="wrap"><div class="grid three guide-list">' + cards + '</div></div></section>')
     open('guides/index.html', 'w', encoding='utf-8').write(page(head, foot, 'Guides | TransWind', 'Practical guides for companies and individuals working with Chinese suppliers, documents and institutions.', SITE + '/guides/', main))
     print('built', len(guides), 'guides')

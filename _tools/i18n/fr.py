@@ -1224,4 +1224,5 @@ T = {
 's1223':'Les programmes que nous avons menés avec nos partenaires.',
 's1224':'Retour à Éducation et échanges culturels',
 's1225':'Immersion IA et culture chinoise à Wuhan',
+'s1226':'Guide : visiter des usines à Wuhan (en anglais)',
 }
