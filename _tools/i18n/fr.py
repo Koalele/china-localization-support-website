@@ -1267,4 +1267,10 @@ T = {
 's1266':'Envoyez votre fichier',
 's1267':'Un scan ou une photo nette de chaque page, le couple de langues, l’autorité destinataire et votre échéance.',
 's1268':'Comment se déroule une commande',
+'s1269':'Exemple masqué d’un diplôme de licence en anglais',
+'s1270':'<strong>Diplôme</strong> Justificatif d’études traduit pour des demandes d’études, d’emploi et d’immigration.',
+'s1271':'Exemple masqué d’un relevé de notes traduit en anglais',
+'s1272':'<strong>Relevé de notes</strong> Intitulés de cours, crédits et notes traduits dans la mise en page du tableau d’origine.',
+'s1273':'Exemple masqué d’un acte notarié en anglais à côté de sa traduction chinoise',
+'s1274':'<strong>Acte notarié</strong> L’original en anglais à côté de sa traduction en chinois.',
 }
