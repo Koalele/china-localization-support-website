@@ -1298,4 +1298,6 @@ T = {
 's1297':'Exemple masqué d’un livret de résidence (hukou) traduit en anglais',
 's1298':'<strong>Livret de résidence (hukou)</strong> La page de notes et la fiche d’enregistrement de résident traduites ligne par ligne.',
 's1299':'Documents universitaires et de véhicule',
+'s1300':'Discuter sur WhatsApp',
+'s1301':'WhatsApp : +86 150 7145 4624',
 }
