@@ -1272,5 +1272,9 @@
 "s1271": "Masked sample of an academic transcript translated into English",
 "s1272": "<strong>Academic transcript</strong>Course names, credits and grades translated in the original table layout.",
 "s1273": "Masked sample of an English notarial certificate beside its Chinese translation",
-"s1274": "<strong>Notarial certificate</strong>The English original beside its Chinese translation."
+"s1274": "<strong>Notarial certificate</strong>The English original beside its Chinese translation.",
+"s1275": "Masked sample of a Chinese business license beside its English translation",
+"s1276": "<strong>Business license</strong>The Chinese original beside its English translation.",
+"s1277": "Masked sample of a professional certificate translated into Chinese",
+"s1278": "<strong>Professional certificate</strong>Licenses and qualifications translated for registration and immigration use."
 }

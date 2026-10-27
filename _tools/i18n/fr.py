@@ -1273,4 +1273,8 @@ T = {
 's1272':'<strong>Relevé de notes</strong> Intitulés de cours, crédits et notes traduits dans la mise en page du tableau d’origine.',
 's1273':'Exemple masqué d’un acte notarié en anglais à côté de sa traduction chinoise',
 's1274':'<strong>Acte notarié</strong> L’original en anglais à côté de sa traduction en chinois.',
+'s1275':'Exemple masqué d’une licence commerciale chinoise à côté de sa traduction en anglais',
+'s1276':'<strong>Licence commerciale</strong> L’original en chinois à côté de sa traduction en anglais.',
+'s1277':'Exemple masqué d’un certificat professionnel traduit en chinois',
+'s1278':'<strong>Certificat professionnel</strong> Licences et qualifications traduites pour des démarches d’enregistrement et d’immigration.',
 }
