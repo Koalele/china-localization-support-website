@@ -1291,4 +1291,6 @@ T = {
 's1290':'Nous respectons vos droits et vos intérêts et maintenons des limites professionnelles claires.',
 's1291':'Équité envers tous',
 's1292':'Nous servons chaque client avec respect et sensibilité culturelle, sans aucune discrimination.',
+'s1293':'Voir les types de projets dont proviennent ces documents',
+'s1294':'Voir des exemples masqués de ces documents',
 }
