@@ -1300,4 +1300,8 @@ T = {
 's1299':'学历及车辆文件',
 's1300':'通过 WhatsApp 联系',
 's1301':'WhatsApp：+86 150 7145 4624',
+'s1302':'加拿大移民（IRCC）译员宣誓书',
+'s1303':'按件报价',
+'s1304':'可以。认证翻译件加盖渡风公司翻译专用章，并附签字的翻译准确性声明。不同机构的要求不同，下单前请先确认递交机构接受哪种翻译件。办理加拿大移民的客户，我们还可以安排译员在公证员面前办理宣誓书。<a href="/guides/chinese-documents-canadian-immigration.html">了解 IRCC 翻译要求（英文）</a>',
+'s1305':'办理加拿大移民（IRCC）的，我们可以安排译员宣誓书。<a href="/guides/chinese-documents-canadian-immigration.html">阅读指南（英文）</a>',
 }

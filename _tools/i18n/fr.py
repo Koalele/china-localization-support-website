@@ -1300,4 +1300,8 @@ T = {
 's1299':'Documents universitaires et de véhicule',
 's1300':'Discuter sur WhatsApp',
 's1301':'WhatsApp : +86 150 7145 4624',
+'s1302':'Déclaration sous serment du traducteur pour l’immigration au Canada (IRCC)',
+'s1303':'Devis par document',
+'s1304':'Oui. Les traductions certifiées portent le cachet de traduction de TransWind et une déclaration signée attestant que la traduction est exacte et complète. Les exigences varient selon les administrations : vérifiez ce que la vôtre accepte avant de commander. Pour l’immigration au Canada, nous pouvons aussi organiser la déclaration sous serment du traducteur devant notaire. <a href="/guides/chinese-documents-canadian-immigration.html">Les exigences d’IRCC (en anglais)</a>',
+'s1305':'Pour l’immigration au Canada (IRCC), nous pouvons organiser la déclaration sous serment du traducteur. <a href="/guides/chinese-documents-canadian-immigration.html">Lire notre guide (en anglais)</a>',
 }
