@@ -1373,4 +1373,5 @@ T = {
 's1372':'Pour des vérifications juridiques ou financières, nous pouvons vous présenter des cabinets agréés.',
 's1373':'Interprétation à distance<small>Par heure : appel vidéo ou téléphonique, 1 heure minimum</small>',
 's1374':'À partir de 270 ¥',
+'s1375':'Sur devis, par entreprise',
 }
