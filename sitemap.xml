@@ -481,6 +481,38 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/localization.html"/>
   </url>
   <url>
+    <loc>https://transwindcn.com/partners.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/partners.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/zh/partners.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/partners.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/ja/partners.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/partners.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/fr/partners.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/partners.html"/>
+  </url>
+  <url>
     <loc>https://transwindcn.com/past-programs.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/past-programs.html"/>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/past-programs.html"/>
@@ -575,6 +607,38 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/services.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/services.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/services.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/supplier-check.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/supplier-check.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/zh/supplier-check.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/supplier-check.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/ja/supplier-check.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/supplier-check.html"/>
+  </url>
+  <url>
+    <loc>https://transwindcn.com/fr/supplier-check.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://transwindcn.com/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://transwindcn.com/zh/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://transwindcn.com/ja/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://transwindcn.com/fr/supplier-check.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://transwindcn.com/supplier-check.html"/>
   </url>
   <url>
     <loc>https://transwindcn.com/translation-pricing.html</loc>
