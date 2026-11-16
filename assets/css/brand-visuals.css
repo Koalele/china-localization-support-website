@@ -203,3 +203,4 @@ body.education-page .page-hero .education-intro>.eyebrow{font-size:.92rem;letter
 @media(max-width:1000px){.sample-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.sample-grid{grid-template-columns:1fr;max-width:460px}.sample img{height:auto;max-height:480px}}
 @media(min-width:821px){.field-grid.six .field-card:nth-child(n){grid-column:span 2}}
 .whatsapp-btn{background:#25D366!important;color:#fff!important;gap:8px}.whatsapp-btn:hover{background:#1ebe5a!important}.contact-actions{margin-top:18px}
+.guide-figure{margin:18px 0 22px}.guide-figure img{display:block;width:100%;height:auto;border-radius:12px;border:1px solid rgba(0,0,0,.08)}.guide-figure figcaption{font-size:.85rem;opacity:.7;margin-top:6px}
